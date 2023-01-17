@@ -1,0 +1,30 @@
+{
+  "name": "nlw-setup-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etobdc/nlw-setup-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etobdc/nlw-setup-server/issues"
+  },
+  "homepage": "https://github.com/etobdc/nlw-setup-server#readme",
+  "devDependencies": {
+    "prisma": "^4.8.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@prisma/client": "^4.8.1",
+    "fastify": "^4.11.0"
+  }
+}
